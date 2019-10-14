@@ -1,0 +1,307 @@
+ #callerDetails { /*css for caller details div, next to call form*/
+	position: relative !important;
+	left: 400px !important;
+	top: -250px !important;
+	width: 400px;
+	height: 175px !important;
+	border: 2px solid #bfbfbf !important;
+	white-space: nowrap;
+}
+.button_customisation {
+	font-family: helvetica, Times;
+	color: ivory !important;
+	font-size: 12px !important;
+	background-color:  #bfbfbf !important;
+	border-radius: 4px !important;
+	width: 95px !important;
+	padding: 6px !important;
+	margin: 10px !important;
+}
+
+
+
+.page_text {
+	font-family: helvetica, Times !important;
+	color:  #000000 !important;
+	font-size: 18px !important;
+	top: -100px !important;
+}
+
+.text_field_customisation {
+	font-family: helvetica,
+	Times !important;
+	font-size: 18px !important;
+	border: 2px solid #bfbfbf !important;
+}
+
+.divider {
+	background-color:  #ffffff !important;
+	top: -100px !important;
+	border: 2px solid #bfbfbf !important;
+}
+
+.generic_button_customisation {
+	font-family: helvetica, Times;
+	color: ivory !important;
+	font-size: 12px !important;
+	background-color:  #bfbfbf !important;
+	border-radius: 4px !important;
+	width: 110px !important;
+	padding: 6px !important;
+	margin: 10px !important;
+}
+
+.no_referenceNo_button_customisation {
+	font-family: helvetica, Times !important;
+	color: ivory !important;
+	font-size: 12px !important;
+	background-color:  #bfbfbf !important;
+	border-radius: 4px !important;
+	width: 140px !important;
+	padding: 6px !important;
+	margin: 10px !important;
+}
+
+.problemForm { /* used to determine css of the form for adding data for problems*/
+	position: relative !important;
+	left: 20px !important;
+	width: 400px !important;
+	background-color:  #ffffff !important;
+	font-family: helvetica,
+	Times !important;
+	font-size: 16px !important;
+	border: 2px solid #bfbfbf !important;
+	margin-top: 5px !important;
+	padding: 4px !important;
+	line-height: 2.0 !important;
+}
+
+.problem_form_text_field_customisation {
+	font-family: helvetica, Times !important;
+	font-size: 14px !important;
+	border: 2px solid #bfbfbf !important;
+}
+
+.problem_form_button_customisation {
+	font-family: helvetica, Times;
+	color: ivory !important;
+	font-size: 11px !important;
+	background-color:  #bfbfbf !important;
+	border-radius: 3px !important;
+	width: 90px !important;
+	padding: 4px !important;
+	margin: 5px !important;
+}
+
+.problem_form_text_area_customisation {
+	font-family: helvetica,
+	Times !important;
+	font-size: 14px !important;
+	border: 2px solid #bfbfbf !important;
+	vertical-align: top !important;
+}
+
+.problem_form_problem_header {
+	font-family: helvetica, Times !important;
+	font-size: 18px !important;
+}
+.problem_form_radio_button_customisation { /*add css for radio buttons here*/
+
+}
+
+.problemFormButton {
+	font-family: helvetica,
+	Times !important;
+	font-size: 12px !important;
+	border: 2px solid #bfbfbf !important;
+}
+.hardwareDiv { /* css for hardware details div, optionally next to each problem*/
+	position: absolute !important;
+	top: 30px !important;
+	left: 450px !important;
+	width: 200px !important;
+	height: 100px !important;
+	border: 1px solid black !important;
+	background-color:  #ffffff !important;
+	padding: 4px !important;
+	line-height: 1.6 !important;
+	font-family: helvetica,
+	Times !important;
+	font-size: 16px !important;
+	border: 2px solid #bfbfbf !important;
+}
+.approvedSoftwareDiv { /* for text saying software is approved*/
+	color: green !important;
+}
+.notApprovedSoftwareDiv { /* for text saying software is not approved*/
+	color: red !important;
+}
+ #problemListDiv {
+	position: fixed !important;
+	width: 303px !important;
+	height: 600px !important;
+	border: 2px solid #bfbfbf !important;
+	background-color:  #ffffff !important;
+	z-index: 10000 !important;
+	left: 70%  !important;
+	bottom: 5%  !important;
+}
+#problemListDiv h3 {
+	margin: 20px 10px 10px 10px;
+ font-size: 18px;
+}
+ #prevProblems {
+	position: absolute !important;
+	width: 300px !important;
+	height: 489px !important;
+	left: -1px !important;
+	top: 60px !important;
+	border: 2px solid #bfbfbf !important;
+	overflow-y: scroll !important;
+
+}
+.selectableProblem { /* for each problem in list of previous problems */
+	font-family: helvetica, Times !important;
+	position: relative !important;
+	width: 279px !important;
+	height: 200px !important;
+	background-color:  #aaa;
+	border: 1px solid black !important;
+	left: 0px !important;
+}
+
+.Previous_Problem_Button_Customisation {
+	font-family: helvetica, Times !important;
+	color: ivory !important;
+	font-size: 12px !important;
+	background-color:  #bfbfbf !important;
+	border-radius: 3px !important;
+	width: 90px !important;
+	padding: 4px !important;
+	margin: 5px !important;
+	align-content: center !important;
+}
+.remove_problem_button {
+	position: absolute !important;
+	left: 355px !important;
+	top: 10px !important;
+	background-color:  #bfbfbf !important;
+	font-family: helvetica, Times;
+	color: ivory !important;
+	border-radius: 3px !important;
+	width: 30px;
+	height: 35px;
+	text-align: center;
+}
+.remove_expert_list_button {
+	position: absolute !important;
+	left: 235px !important;
+	top: 5px !important;
+	background-color:  #bfbfbf !important;
+	font-family: helvetica,
+	Times;
+	color: ivory !important;
+	border-radius: 3px !important;
+	width: 30px;
+	height: 30px;
+}
+
+
+.Page_Text_Small{ /*Specifically for the text at the bottom of the form "Existing problem reference number:" */
+	font-family: helvetica, Times !important;
+	color: #000000 !important;
+	font-size: 14px !important;
+}
+ 
+ #BTNcancelSelect { /*button to close problem selection panel*/
+	position: absolute !important;
+	top: 550px !important;
+	left: 100px !important;
+}
+
+.sendToExpert_button {
+	font-family: helvetica,
+	Times;
+	color: ivory !important;
+	font-size: 12px !important;
+	background-color:  #bfbfbf !important;
+	border-radius: 4px !important;
+	width: 150px !important;
+	padding: 6px !important;
+	margin: 10px !important;
+}
+.solved_button {
+	font-family: helvetica, Times;
+	color: ivory !important;
+	font-size: 12px !important;
+	background-color:  #bfbfbf !important;
+	border-radius: 4px !important;
+	width: 150px !important;
+	padding: 6px !important;
+	margin: 10px !important;
+}
+
+.specialist_box {
+	position: absolute !important;
+	left: 450px !important;
+	top: 150px !important;
+	width: 280px !important;
+	height: 220px !important;
+	border: 2px solid #bfbfbf !important;
+	background-color:  #fff !important;
+}
+
+.expertList {
+	overflow-y: auto !important;
+	width: 270px !important;
+	height: 163px !important;
+}
+.expertDiv {
+	width: 250px !important;
+	height: 30px !important;
+	border: 1px solid gray !important;
+}
+.expertDivMouseover {
+	background-color:  #d5d5d5 !important;
+}
+.expertNameDiv {
+	width: 200px !important;
+	height: 30px !important;
+	text-align: right !important;
+	border: 1px solid gray !important;
+	padding-right: 10px !important;
+	user-select: none !important;
+}
+.expertNameDivText {
+	left: 10px !important;
+	position: relative !important;
+}
+
+.expertNumDiv {
+	width: 48px !important;
+	height: 30px !important;
+	
+	float: right !important;
+	text-align: center !important;
+	border: 1px solid gray !important;
+	vertical-align: bottom !important;
+	user-select: none !important;
+}
+.expertNumDivText {}
+#problemFilterDiv {
+	position: relative;
+	width: 250px;
+	height: 400px;
+	left: -252px;
+	top: -1px;
+	border: 1px solid gray;
+	background-color: white;
+}
+#filterSearchButton {
+	position: relative;
+	left: 60px;
+}
+#filterRefreshButton {
+	position: relative;
+	left: 115px;
+}
