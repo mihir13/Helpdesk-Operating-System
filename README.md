@@ -1,2 +1,5 @@
 # Helpdesk-Operating-System
-I only have attached a documentation of the project I had worked on, since we all worked in a team a while ago and unfortunately do not have access to my team members. 
+
+This is a project part of Team Projects module in my University where it required a team of 5 members to come up with a Helpdesk Operating System for our client where we have created a prototype, showed to our clients, fixed the necessary changes and created the final product. 
+
+This file contains all the necessary code to run PHP Laravel framework and documentation required to understand the project. 
